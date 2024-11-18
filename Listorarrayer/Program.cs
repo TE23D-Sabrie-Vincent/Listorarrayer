@@ -5,6 +5,8 @@
 //    System.Console.WriteLine($"{bois [i]}"); 
 // }
 
-List<string> klasskamrater = ["Simon", "Theodor", "Richard", "Konstantin", "Kevin"];
+// List<string> klasskamrater = ["Simon", "Theodor", "Richard", "Konstantin", "Kevin"];
+
+List<string> nummer = ["1", "3", "5", "7", "9"];
 
 Console.ReadLine();

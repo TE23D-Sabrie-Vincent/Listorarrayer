@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Listorarrayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16dbb85f88f45ec4104cfd074a16ea43fd7537a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08d34cf0247f2de1aa28b187e04e7f6e4e9ca2d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Listorarrayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Listorarrayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -24,17 +24,37 @@
 //     System.Console.WriteLine($"{klasskamrater[i]} ger {leksaker[i]} betyget {nummer[i]}");
 // }
 
+// List<string> cities = [];
+
+
+// while (true)
+// {
+//     System.Console.WriteLine("Skriv vad du vill lägga till i listan");
+//     string input = Console.ReadLine();
+//     if (input == "exit")
+//     {
+//         break;
+//     }
+//     cities.Add(input);
+
+// }
+
 List<string> cities = [];
 
 
 while (true)
 {
     System.Console.WriteLine("Skriv vad du vill lägga till i listan");
+    System.Console.WriteLine("Skriv exit om du vill se dina saker");
     string input = Console.ReadLine();
     if (input == "exit")
     {
         break;
     }
     cities.Add(input);
+}
 
+for (int i = 0; i < cities.Count; i++){
+    System.Console.WriteLine($"{cities[i]}");
+    Console.ReadLine();
 }

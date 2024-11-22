@@ -30,5 +30,11 @@ List<string> cities = [];
 while (true)
 {
     System.Console.WriteLine("Skriv vad du vill lägga till i listan");
-    cities.Add(Console.ReadLine());
+    string input = Console.ReadLine();
+    if (input == "exit")
+    {
+        break;
+    }
+    cities.Add(input);
+
 }
